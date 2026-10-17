@@ -1,0 +1,53 @@
+.layar {
+    display: none;
+    
+}
+
+#layar1 {
+    display: block;
+}
+
+.gambar {
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp7Th7XDoNli6l0PQBm37XWbd_N7h_0-PCAM-kLVlaqCFRDm7Ruf4l_Xg&s=10");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+.tombol-maps {
+display: inline-block;
+background-color: #171717;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 20px;
+margin: 8px 5px;
+border: 1px solid #333333;
+border-radius: 10px;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.25s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
